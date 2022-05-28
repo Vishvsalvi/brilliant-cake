@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Cakesavory</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="brand-title">Cakesavory</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 lg:h-screen">
+        <div class="relative z-10 lg:py-16">
+          <div class="relative h-64 sm:h-80 lg:h-full">
+            <img class="absolute inset-0 object-cover w-full h-full" src="https://source.unsplash.com/random/?cakes"
+              alt="" />
+          </div>
+        </div>
+
+        <div class="relative flex items-center bg-gray-100">
+          <span class="hidden lg:inset-y-0 lg:absolute lg:w-16 lg:bg-gray-100 lg:block lg:-left-16"></span>
+
+          <div class="p-8 sm:p-16 lg:p-24">
+            <h2 class="text-2xl font-bold sm:text-3xl">
+
+              Whether it's your <span class="relative inline-block text-blue-600">Anniversary, Birthday</span> or any
+              other occasion, we've got you covered.
+            </h2>
+
+            <p class="mt-4 text-gray-600">
+              Your cake will look amazing, taste delicious and be delivered on time. We bake a fresh, high-quality
+              cake
+              just for you. All cakes are made by hand using only the finest ingredients.
+            </p>
+
+            <a class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white bg-indigo-600 border border-indigo-600 rounded active:text-indigo-500 hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring"
+              href="/contact">
+              Order Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+  <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20" id="about">
+    <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
+      <div class="flex flex-col justify-center">
+        <div class="max-w-xl mb-6 reveal-horizontal">
+          <h2
+            class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            Why our customers<br class="hidden md:block" />
+
+            <span class="relative px-1">
+              <div class="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400"></div>
+              <span class="relative inline-block text-blue-600">Choose Us</span>
+            </span>
+          </h2>
+          <p class="text-base text-gray-700 md:text-lg">
+
+          </p>
+        </div>
+        <div class="grid gap-5 row-gap-8 sm:grid-cols-2 ease-in-out ">
+          <div class="bg-white border-l-4 shadow-sm hover:shadow-lg cursor-pointer reveal">
+            <div class="h-full p-5 border border-l-0 rounded-r">
+              <h6 class="mb-2 font-semibold leading-5">
+                It's Marvellous Look
+              </h6>
+              <p class="text-sm text-gray-900">
+                Every cake is a unique masterpiece. Our cakes are crafted with the utmost care by expert bakers and
+                decorators who ensure that every cake we deliver is nothing less than perfect in design, taste and
+                freshness.
+              </p>
+            </div>
+          </div>
+          <div
+            class="bg-white border-l-4 shadow-sm border-deep-purple-accent-400 ease-in-out hover:shadow-lg cursor-pointer reveal">
+            <div class="h-full p-5 border border-l-0 rounded-r">
+              <h6 class="mb-2 font-semibold leading-5">
+                Taste You'll Never Forget
+              </h6>
+              <p class="text-sm text-gray-900">
+                We offer deliciously moist cakes, soft-smooth buttercream, and a variety of fillings that are sure to
+                lure you into indulgence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img class="object-cover w-full h-56 rounded shadow-lg sm:h-96 reveal" src="./images/bday_girl.jpg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <!--CAKE DISPLAY  -->
+  <section id="gallery">
+    <div class="max-w-screen-xl px-4 py-8 mx-auto">
+      <div>
+        <span class="inline-block w-12 h-1 bg-blue-700"></span>
+
+        <h2 class="mt-1 text-2xl font-extrabold tracking-wide uppercase lg:text-3xl reveal-horizontal">
+          GALLERY
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-2 mt-8 lg:grid-cols-4 gap-x-4 gap-y-8">
+        <a href="" class="block">
+          <div class="flex justify-center">
+          </div>
+
+          <img src="./images/cake_1.jpg" class="object-cover w-full -mt-3 h-96 hover:drop-shadow-2xl reveal" />
+
+          <h5 class="mt-4 text-sm text-black/90">
+            Fruit Jelly Cake
+          </h5>
+
+          <div class="flex items-center justify-between mt-4 font-bold">
+            <p class="text-lg">
+              ₹899.99
+            </p>
+
+
+          </div>
+        </a>
+
+        <a href="" class="block">
+          <div class="flex justify-center">
+          </div>
+
+          <img src="./images/cake_2.jpg" class="object-cover w-full -mt-3 h-96 hover:drop-shadow-2xl reveal" />
+
+          <h5 class="mt-4 text-sm text-black/90">
+            Chocolate Devil
+          </h5>
+
+          <div class="flex items-center justify-between mt-4 font-bold">
+            <p class="text-lg">
+              ₹589.99
+            </p>
+
+
+          </div>
+        </a>
+
+        <a href="" class="block">
+          <div class="flex justify-center">
+          </div>
+
+          <img src="./images/cake_3.jpg" class="object-cover w-full -mt-3 h-96 hover:drop-shadow-2xl reveal" />
+
+          <h5 class="mt-4 text-sm text-black/90">
+            Blueberry Cheese Cake
+          </h5>
+
+          <div class="flex items-center justify-between mt-4 font-bold">
+            <p class="text-lg">
+              ₹689.99
+            </p>
+
+
+          </div>
+        </a>
+
+        <a href="" class="block">
+          <div class="flex justify-center">
+          </div>
+
+          <img src="./images/cake_4.1.jpg" class="object-cover w-full -mt-3 h-96 hover:drop-shadow-2xl reveal" />
+
+          <h5 class="mt-4 text-sm text-black/90">
+            Chocochip Cupcakes
+          </h5>
+
+          <div class="flex items-center justify-between mt-4 font-bold">
+            <p class="text-lg">
+              ₹489.99
+            </p>
+
+
+          </div>
+        </a>
+        <a href="" class="block">
+          <div class="flex justify-center">
+          </div>
+
+          <img src="./images/cake_4.jpg" class="object-cover w-full -mt-3 h-96 hover:drop-shadow-2xl reveal" />
+
+          <h5 class="mt-4 text-sm text-black/90">
+            Chocolate Cupcakes
+          </h5>
+
+          <div class="flex items-center justify-between mt-4 font-bold">
+            <p class="text-lg">
+              ₹689.99
+            </p>
+
+
+          </div>
+        </a>
+        <a href="" class="block">
+          <div class="flex justify-center">
+          </div>
+
+          <img src="./images/cake_6.jpg" class="object-cover w-full -mt-3 h-96 hover:drop-shadow-2xl reveal" />
+
+          <h5 class="mt-4 text-sm text-black/90">
+            Red Velvet Cupcakes
+          </h5>
+
+          <div class="flex items-center justify-between mt-4 font-bold">
+            <p class="text-lg">
+              ₹389.99
+            </p>
+
+
+          </div>
+        </a>
+        <a href="" class="block">
+          <div class="flex justify-center">
+          </div>
+
+          <img src="./images/cake_7.jpg" class="object-cover w-full -mt-3 h-96 hover:drop-shadow-2xl reveal" />
+
+          <h5 class="mt-4 text-sm text-black/90">
+            Choco Almond Cream
+          </h5>
+
+          <div class="flex items-center justify-between mt-4 font-bold">
+            <p class="text-lg">
+              ₹999.99
+            </p>
+
+
+          </div>
+        </a>
+        <a href="" class="block">
+          <div class="flex justify-center">
+          </div>
+
+          <img src="./images/cake_8.jpg" class="object-cover w-full -mt-3 h-96 hover:drop-shadow-2xl reveal" />
+
+          <h5 class="mt-4 text-sm text-black/90">
+            The Rainbow Cake
+          </h5>
+
+          <div class="flex items-center justify-between mt-4 font-bold">
+            <p class="text-lg">
+              ₹889.99
+            </p>
+
+            <p class="text-xs tracking-wide uppercase">
+
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CUSTOMERS REVIEW -->
+
+  <link crossorigin="anonymous" href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <script crossorigin="anonymous" defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <style>
+    .swiper-container {
+      overflow: hidden;
+    }
+  </style>
+
+  <section class="bg-gray-100" id="reviews">
+    <div class="px-4 py-16 mx-auto sm:px-6 lg:pl-8 lg:pr-0 lg:mr-0 sm:py-24 max-w-[1340px]">
+      <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-x-16 gap-y-8 lg:items-center reveal-horizontal">
+        <div class="max-w-xl text-center sm:text-left">
+          <h2 class="text-3xl font-bold tracking-tight sm:text-4xl">
+            Don't just take our word for it...
+            <br class="hidden sm:block lg:hidden" />
+            Read reviews from our customers
+          </h2>
+
+          <p class="mt-4 text-gray-500">
+            KEEPING OUR CUSTOMERS HAPPY IS OUR ONLY PRIORITY.
+          </p>
+
+          <div class="hidden lg:mt-8 lg:flex lg:gap-4">
+            <button aria-label="Previous slide"
+              class="p-3 text-blue-600 border border-pink-600 rounded-full hover:bg-pink-600 hover:text-white prev-button">
+              <svg class="w-5 h-5 transform -rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+              </svg>
+            </button>
+
+            <button aria-label="Next slide"
+              class="p-3 text-blue-600 border border-pink-600 rounded-full hover:bg-pink-600 hover:text-white next-button">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="-mx-6 lg:col-span-2 lg:mx-0">
+          <div class="swiper-container">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <blockquote class="flex flex-col justify-between h-full p-12 bg-white">
+                  <div>
+                    <div class="flex gap-0.5 text-green-500">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </div>
+
+                    <div class="mt-4 reveal">
+                      <p class="text-2xl font-bold text-blue-600 sm:text-3xl">
+                        Beautiful Cake
+                      </p>
+
+                      <p class="mt-4 leading-relaxed text-gray-500">
+                        I got this cake as a birthday treat for my kids. They loved the cake. The cake was so
+                        delicious
+                        and good looking. I will buy here again for sure.
+                      </p>
+                    </div>
+                  </div>
+
+                  <footer class="mt-8 text-sm text-gray-500">
+                    &mdash; Nishad Singh
+                  </footer>
+                </blockquote>
+              </li>
+
+              <li class="swiper-slide">
+                <blockquote class="flex flex-col justify-between h-full p-12 bg-white">
+                  <div>
+                    <div class="flex gap-0.5 text-green-500">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </div>
+
+                    <div class="mt-4">
+                      <p class="text-2xl font-bold text-blue-600 sm:text-3xl">
+                        Loved It!!
+                      </p>
+
+                      <p class="mt-4 leading-relaxed text-gray-500">
+                        The cake was delicious and everyone loved it. The kids loved it. It was just the right size.
+                        The
+                        ingredients used to prepare it were of the best quality. It looked great. The cake was
+                        delivered
+                        on time, and the delivery boy was courteous and on time.
+                      </p>
+                    </div>
+                  </div>
+
+                  <footer class="mt-8 text-sm text-gray-500">
+                    &mdash; Krutika Nair
+                  </footer>
+                </blockquote>
+              </li>
+
+              <li class="swiper-slide">
+                <blockquote class="flex flex-col justify-between h-full p-12 bg-white">
+                  <div>
+                    <div class="flex gap-0.5 text-green-500">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    </div>
+
+                    <div class="mt-4">
+                      <p class="text-2xl font-bold text-blue-600 sm:text-3xl">
+                        Rich In Taste
+                      </p>
+
+                      <p class="mt-4 leading-relaxed text-gray-500">
+                        This cake is so good. It was decorated beautifully and tasted so rich and decadent. The butter
+                        cream frosting was the perfect compliment to this scrumptious cake. I will certainly place an
+                        order for more cakes to be made in the future.
+                      </p>
+                    </div>
+                  </div>
+
+                  <footer class="mt-8 text-sm text-gray-500">
+                    &mdash; Chirag Jain
+                  </footer>
+                </blockquote>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-center gap-4 mt-8 lg:hidden">
+        <button aria-label="Previous slide"
+          class="p-4 text-blue-600 border border-blue-600 rounded-full hover:bg-blue-600 hover:text-white prev-button">
+          <svg class="w-5 h-5 transform -rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+          </svg>
+        </button>
+
+        <button aria-label="Next slide"
+          class="p-4 text-blue-600 border border-blue-600 rounded-full hover:bg-blue-600 hover:text-white next-button">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Swiper('.swiper-container', {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 32,
+        autoplay: {
+          delay: 8000,
+        },
+        breakpoints: {
+          640: {
+            centeredSlides: true,
+            slidesPerView: 1.25,
+          },
+          1024: {
+            centeredSlides: false,
+            slidesPerView: 1.5,
+          },
+        },
+        navigation: {
+          nextEl: '.next-button',
+          prevEl: '.prev-button',
+        },
+      })
+    })
+  </script>
+
+  <!-- CONTACT US -->
+  <section class="text-gray-600 body-font relative" id="contact">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 reveal-horizontal">Contact Us</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base reveal-horizontal">Get in touch with us and discuss your
+          DESIGNS AND FLAVORS</p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto reveal">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+              <input type="text" id="name" name="name"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button
+              class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Submit</button>
+          </div>
+          <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            <a class="text-blue-500">parijain2609@gmail.com</a>
+            <p class="leading-normal my-5">
+              <br>Mumbai, India
+            </p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-4 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                  </path>
+                </svg>
+              </a>
+              <a class="ml-4 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-4 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                  </path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">Cakesavory</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 —
+        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer"
+          target="_blank">@cakesavory</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
